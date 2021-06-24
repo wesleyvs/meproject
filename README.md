@@ -72,6 +72,31 @@ create table pessoa_fisica (
 ~~~
 -------------
 
+### JSON para testes:
+~~~json
+{
+    "nomePessoa": "Nome",
+    "dataNascimento": "Data de nascimento (String)",
+    "estadoCivil": "Estado cívil",
+    "dependentes": "ID da pessoa dependente"
+}
+~~~
+Lembrando que a tabela tem uma constraint para estado civil. Valores possíveis: ('solteiro(a)', 'união estável', 'casado(a)','divorciado(a)', viuvo(a)').  
+
+No caso do PUT (/meproject/pessoa/alterarPessoa) uma key de id deve ser incluida neste json e o valor para ela é de um inteiro.  
+Exemplo:  
+~~~json
+{
+    "idPessoa": 1,
+    "nomePessoa": "Nome",
+    "dataNascimento": "Data de nascimento (String)",
+    "estadoCivil": "Estado cívil",
+    "dependentes": "ID da pessoa dependente"
+}
+~~~
+
+-------------
+
 ### Endpoints:
 
 - ## /meproject/pessoa
