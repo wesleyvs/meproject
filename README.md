@@ -88,7 +88,7 @@ create table pessoa_fisica (
 
 ![](./img/delete.png)
 
-    #### Outra evidência do delete. A pessoa com o ID 4 foi removida.
+   #### Outra evidência do delete. A pessoa com o ID 4 foi removida.
 
 ![](./img/delete2.png)
 
