@@ -2,6 +2,4 @@ ports:
   - port: 5432
 tasks:
   - init: . init.sh
-  - command: mvn install
-  - command: mvn spring-boot:run
 image: gitpod/workspace-postgres
