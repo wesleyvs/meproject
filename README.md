@@ -1,6 +1,6 @@
 # Projeto meproject
 
-Desenvolvido por: Wesley Vinicius (wesleyvini.social@gmail.com)
+Desenvolvido por: Wesley Vinicius (wesleyvini.social@gmail.com)  
 [Meu perfil no LinkedIn](https://www.linkedin.com/in/wesley-vinicius-silva-8568a516b/)
 
 -------------
@@ -11,8 +11,15 @@ Desenvolvido por: Wesley Vinicius (wesleyvini.social@gmail.com)
 - Apache Maven 3.8.1;
 - Foi desenvolvido no sistema operacional Windows 10(x64).
 
-Acessar o código:
+
+
+Acessar o código:  
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wesleyvs/meproject/tree/master/me-project)
+
+Para conseguir acessar o projeto de fora do ambiente gitpod, acesse a aba 'Open Ports', deixe o endereço visível pelo 'Make Public' e consiga a URL pelo 'Open Browser'.  
+![](./img/tuto.png)  
+Com esta URL é possível fazer as requisições sem ter o projeto instalado localmente.  
+Exemplo: https://8081-purple-swordfish-qr9870af.ws-us08.gitpod.io/meproject/pessoa (este endereço sempre muda, então este procedimento sempre deve ser feito para testar).  
 
 #### Objetivo:
 
@@ -107,6 +114,6 @@ create table pessoa_fisica (
 
 #### Pontos interessantes:
 
-Eu não tinha bastante conhecimento em PostgreSQL, o projeto me forneceu um conhecimento moderado em como funciona PLSQL no PostgreSQL.
-Aproveitei o projeto e me aprofundei mais em JPA/Spring.
-Me desafiei a usar Maven. Estou mais familiarizado com Gradle, Maven se mostrou muito interessante e facil de utilizar.
+Eu não tinha bastante conhecimento em PostgreSQL, o projeto me forneceu um conhecimento moderado em como funciona PLSQL no PostgreSQL.  
+Aproveitei o projeto e me aprofundei mais em JPA/Spring.  
+Me desafiei a usar Maven. Estou mais familiarizado com Gradle, Maven se mostrou muito interessante e facil de utilizar.  
