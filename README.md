@@ -11,7 +11,16 @@ Desenvolvido por: Wesley Vinicius (wesleyvini.social@gmail.com)
 - Apache Maven 3.8.1;
 - Foi desenvolvido no sistema operacional Windows 10(x64).
 
+Caso queira testar sem o auto-run que eu gerei,  
+para instalar as dependências do projeto:
+~~~mvn
+mvn install
+~~~
 
+Para rodar o projeto:
+~~~mvn
+mvn spring-boot:run
+~~~
 
 Acessar o código:  
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wesleyvs/meproject/tree/master/me-project)
