@@ -1,0 +1,7 @@
+ports:
+  - port: 5432
+tasks:
+  - before: psql CREATE DATABASE meprojectdatabase
+  - init: psql \c meprojectdatabase
+  - command: psql -f ./me-project/src/main/resource/DDL(meproject-schema).sql
+image: gitpod/workspace-postgres
