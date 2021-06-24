@@ -1,7 +1,5 @@
 ports:
   - port: 5432
 tasks:
-  - before: psql -c 'CREATE DATABASE meprojectdatabase';
-  - init: psql -d meprojectdatabase -c 'CREATE SCHEMA meproject';
-  - command: psql -d meprojectdatabase -c "create table meproject.pessoa_fisica (id int primary key, pessoa_nome varchar(50) not null, pessoa_data_nascimento varchar(50) not null, pessoa_estado_civil varchar(60) not null, pessoa_dependentes varchar(100), check (pessoa_estado_civil in ('solteiro(a)', 'união estável', 'casado(a)', 'divorciado(a)', 'viuvo(a)')))"
+  - init: . init.sh
 image: gitpod/workspace-postgres
